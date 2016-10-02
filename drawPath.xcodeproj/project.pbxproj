@@ -14,6 +14,7 @@
 		1637094A1DA1AC460097D7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163709481DA1AC460097D7B8 /* LaunchScreen.storyboard */; };
 		163709551DA1AC460097D7B8 /* drawPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163709541DA1AC460097D7B8 /* drawPathTests.swift */; };
 		163709601DA1AC460097D7B8 /* drawPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1637095F1DA1AC460097D7B8 /* drawPathUITests.swift */; };
+		163709701DA1B76F0097D7B8 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1637096F1DA1B76F0097D7B8 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1637095B1DA1AC460097D7B8 /* drawPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1637095F1DA1AC460097D7B8 /* drawPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawPathUITests.swift; sourceTree = "<group>"; };
 		163709611DA1AC460097D7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1637096F1DA1B76F0097D7B8 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				163709461DA1AC460097D7B8 /* Assets.xcassets */,
 				163709481DA1AC460097D7B8 /* LaunchScreen.storyboard */,
 				1637094B1DA1AC460097D7B8 /* Info.plist */,
+				1637096F1DA1B76F0097D7B8 /* ShapeView.swift */,
 			);
 			path = drawPath;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					1637093B1DA1AC460097D7B8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 777S6HRAMC;
 					};
 					1637094F1DA1AC460097D7B8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163709701DA1B76F0097D7B8 /* ShapeView.swift in Sources */,
 				163709421DA1AC460097D7B8 /* ViewController.swift in Sources */,
 				163709401DA1AC460097D7B8 /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = drawPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yifang.drawPath;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = drawPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yifang.drawPath;
